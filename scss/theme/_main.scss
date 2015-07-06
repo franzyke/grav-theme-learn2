@@ -30,7 +30,7 @@
 
     .padding {
         @extend .default-animation;
-        padding: 3rem ($body-margin + 2rem);
+        padding: 1rem ($body-margin + 2rem);
 
         @include breakpoint(desktop-only) {
             position: static;

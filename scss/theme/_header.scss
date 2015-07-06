@@ -1,7 +1,6 @@
 #header {
     background: $header-bg;
     color: $white;
-    text-align: center;
 
     padding: 1rem;
 
@@ -11,13 +10,32 @@
 
     #logo-svg {
         @extend .default-animation;
-        width: $logo-width;
-        height: $logo-height;
-
+        // width: $logo-width;
+        // height: $logo-height;
         path {
             @extend .default-animation;
             fill: $white;
         }
+        float: left;
+        transform: rotate(33deg);
+    }
+
+    span#site-title{
+        font-size: 30px;
+        color: #FFF;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        display: inline-block;
+        text-transform: uppercase;
+
+    }
+    .subtitle{
+        display: inline-block;
+        margin-left:50px;
+    }
+    #logo>img{
+        float: left;
     }
 }
 
